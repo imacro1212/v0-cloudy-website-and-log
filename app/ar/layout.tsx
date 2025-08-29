@@ -5,7 +5,7 @@ import "../globals.css"
 import { Almarai } from "next/font/google"
 
 const almarai = Almarai({
-  subsets: ["arabic", "latin"],
+  subsets: ["arabic"],
   display: "swap",
   variable: "--font-almarai",
   weight: ["300", "400", "700", "800"],
