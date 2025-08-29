@@ -1,6 +1,5 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "../globals.css"
 import { Almarai } from "next/font/google"
@@ -42,7 +41,6 @@ export default function ArabicRootLayout({
     <html lang="ar" dir="rtl" className="rtl">
       <body className={`${almarai.className} antialiased`}>
         <Suspense fallback={null}>{children}</Suspense>
-        <Analytics />
       </body>
     </html>
   )
