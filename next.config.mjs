@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/cloudy-website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/cloudy-website/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/v0-cloudy-website-and-log' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/v0-cloudy-website-and-log/' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
